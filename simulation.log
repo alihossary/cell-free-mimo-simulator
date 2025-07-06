@@ -1,0 +1,402 @@
+2025-07-06 03:12:12,885 - INFO - main_script.py:90 - Running single simulation
+2025-07-06 03:12:12,885 - INFO - main_script.py:90 - Running single simulation
+2025-07-06 03:12:12,885 - INFO - Running single simulation
+2025-07-06 03:12:12,887 - INFO - main_script.py:93 - Creating jammer scenario with beta=1.0, tau=10, steps=50
+2025-07-06 03:12:12,887 - INFO - main_script.py:93 - Creating jammer scenario with beta=1.0, tau=10, steps=50
+2025-07-06 03:12:12,887 - INFO - Creating jammer scenario with beta=1.0, tau=10, steps=50
+2025-07-06 03:12:12,887 - INFO - simulation_scenarios.py:110 - Creating jammer scenario jammer_20250706_031212_a533f85c with beta=1.0, tau=10, n_steps=50
+2025-07-06 03:12:12,887 - INFO - simulation_scenarios.py:110 - Creating jammer scenario jammer_20250706_031212_a533f85c with beta=1.0, tau=10, n_steps=50
+2025-07-06 03:12:12,887 - INFO - Creating jammer scenario jammer_20250706_031212_a533f85c with beta=1.0, tau=10, n_steps=50
+2025-07-06 03:12:12,950 - ERROR - main_script.py:260 - Error in single mode: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 226, in main
+    scenario_id = run_single_simulation(args)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 94, in run_single_simulation
+    scenario_id = create_jammer_scenario(
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_scenarios.py", line 116, in create_jammer_scenario
+    mimo_simulator.run_jammer_simulation(beta, tau, n_steps, n_frames)
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_simulator.py", line 157, in run_jammer_simulation
+    jammer_position, jammer_states[step]
+                     ~~~~~~~~~~~~~^^^^^^
+IndexError: list index out of range
+2025-07-06 03:12:12,950 - ERROR - main_script.py:260 - Error in single mode: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 226, in main
+    scenario_id = run_single_simulation(args)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 94, in run_single_simulation
+    scenario_id = create_jammer_scenario(
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_scenarios.py", line 116, in create_jammer_scenario
+    mimo_simulator.run_jammer_simulation(beta, tau, n_steps, n_frames)
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_simulator.py", line 157, in run_jammer_simulation
+    jammer_position, jammer_states[step]
+                     ~~~~~~~~~~~~~^^^^^^
+IndexError: list index out of range
+2025-07-06 03:12:12,950 - ERROR - Error in single mode: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 226, in main
+    scenario_id = run_single_simulation(args)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 94, in run_single_simulation
+    scenario_id = create_jammer_scenario(
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_scenarios.py", line 116, in create_jammer_scenario
+    mimo_simulator.run_jammer_simulation(beta, tau, n_steps, n_frames)
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_simulator.py", line 157, in run_jammer_simulation
+    jammer_position, jammer_states[step]
+                     ~~~~~~~~~~~~~^^^^^^
+IndexError: list index out of range
+2025-07-06 03:12:29,575 - INFO - main_script.py:90 - Running single simulation
+2025-07-06 03:12:29,575 - INFO - main_script.py:90 - Running single simulation
+2025-07-06 03:12:29,575 - INFO - Running single simulation
+2025-07-06 03:12:29,575 - INFO - main_script.py:93 - Creating jammer scenario with beta=1.0, tau=10, steps=50
+2025-07-06 03:12:29,575 - INFO - main_script.py:93 - Creating jammer scenario with beta=1.0, tau=10, steps=50
+2025-07-06 03:12:29,575 - INFO - Creating jammer scenario with beta=1.0, tau=10, steps=50
+2025-07-06 03:12:29,575 - INFO - simulation_scenarios.py:110 - Creating jammer scenario jammer_20250706_031229_57c693d8 with beta=1.0, tau=10, n_steps=50
+2025-07-06 03:12:29,575 - INFO - simulation_scenarios.py:110 - Creating jammer scenario jammer_20250706_031229_57c693d8 with beta=1.0, tau=10, n_steps=50
+2025-07-06 03:12:29,575 - INFO - Creating jammer scenario jammer_20250706_031229_57c693d8 with beta=1.0, tau=10, n_steps=50
+2025-07-06 03:12:29,644 - ERROR - main_script.py:260 - Error in single mode: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 226, in main
+    scenario_id = run_single_simulation(args)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 94, in run_single_simulation
+    scenario_id = create_jammer_scenario(
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_scenarios.py", line 116, in create_jammer_scenario
+    mimo_simulator.run_jammer_simulation(beta, tau, n_steps, n_frames)
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_simulator.py", line 157, in run_jammer_simulation
+    jammer_position, jammer_states[step]
+                     ~~~~~~~~~~~~~^^^^^^
+IndexError: list index out of range
+2025-07-06 03:12:29,644 - ERROR - main_script.py:260 - Error in single mode: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 226, in main
+    scenario_id = run_single_simulation(args)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 94, in run_single_simulation
+    scenario_id = create_jammer_scenario(
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_scenarios.py", line 116, in create_jammer_scenario
+    mimo_simulator.run_jammer_simulation(beta, tau, n_steps, n_frames)
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_simulator.py", line 157, in run_jammer_simulation
+    jammer_position, jammer_states[step]
+                     ~~~~~~~~~~~~~^^^^^^
+IndexError: list index out of range
+2025-07-06 03:12:29,644 - ERROR - Error in single mode: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 226, in main
+    scenario_id = run_single_simulation(args)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 94, in run_single_simulation
+    scenario_id = create_jammer_scenario(
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_scenarios.py", line 116, in create_jammer_scenario
+    mimo_simulator.run_jammer_simulation(beta, tau, n_steps, n_frames)
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_simulator.py", line 157, in run_jammer_simulation
+    jammer_position, jammer_states[step]
+                     ~~~~~~~~~~~~~^^^^^^
+IndexError: list index out of range
+2025-07-06 03:12:50,841 - INFO - main_script.py:90 - Running single simulation
+2025-07-06 03:12:50,841 - INFO - main_script.py:90 - Running single simulation
+2025-07-06 03:12:50,841 - INFO - Running single simulation
+2025-07-06 03:12:50,841 - INFO - main_script.py:93 - Creating jammer scenario with beta=1.0, tau=9, steps=50
+2025-07-06 03:12:50,841 - INFO - main_script.py:93 - Creating jammer scenario with beta=1.0, tau=9, steps=50
+2025-07-06 03:12:50,841 - INFO - Creating jammer scenario with beta=1.0, tau=9, steps=50
+2025-07-06 03:12:50,845 - INFO - simulation_scenarios.py:110 - Creating jammer scenario jammer_20250706_031250_92224036 with beta=1.0, tau=9, n_steps=50
+2025-07-06 03:12:50,845 - INFO - simulation_scenarios.py:110 - Creating jammer scenario jammer_20250706_031250_92224036 with beta=1.0, tau=9, n_steps=50
+2025-07-06 03:12:50,845 - INFO - Creating jammer scenario jammer_20250706_031250_92224036 with beta=1.0, tau=9, n_steps=50
+2025-07-06 03:12:50,905 - ERROR - main_script.py:260 - Error in single mode: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 226, in main
+    scenario_id = run_single_simulation(args)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 94, in run_single_simulation
+    scenario_id = create_jammer_scenario(
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_scenarios.py", line 116, in create_jammer_scenario
+    mimo_simulator.run_jammer_simulation(beta, tau, n_steps, n_frames)
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_simulator.py", line 157, in run_jammer_simulation
+    jammer_position, jammer_states[step]
+                     ~~~~~~~~~~~~~^^^^^^
+IndexError: list index out of range
+2025-07-06 03:12:50,905 - ERROR - main_script.py:260 - Error in single mode: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 226, in main
+    scenario_id = run_single_simulation(args)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 94, in run_single_simulation
+    scenario_id = create_jammer_scenario(
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_scenarios.py", line 116, in create_jammer_scenario
+    mimo_simulator.run_jammer_simulation(beta, tau, n_steps, n_frames)
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_simulator.py", line 157, in run_jammer_simulation
+    jammer_position, jammer_states[step]
+                     ~~~~~~~~~~~~~^^^^^^
+IndexError: list index out of range
+2025-07-06 03:12:50,905 - ERROR - Error in single mode: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 226, in main
+    scenario_id = run_single_simulation(args)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 94, in run_single_simulation
+    scenario_id = create_jammer_scenario(
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_scenarios.py", line 116, in create_jammer_scenario
+    mimo_simulator.run_jammer_simulation(beta, tau, n_steps, n_frames)
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_simulator.py", line 157, in run_jammer_simulation
+    jammer_position, jammer_states[step]
+                     ~~~~~~~~~~~~~^^^^^^
+IndexError: list index out of range
+2025-07-06 03:12:56,085 - INFO - main_script.py:90 - Running single simulation
+2025-07-06 03:12:56,085 - INFO - main_script.py:90 - Running single simulation
+2025-07-06 03:12:56,085 - INFO - Running single simulation
+2025-07-06 03:12:56,085 - INFO - main_script.py:93 - Creating jammer scenario with beta=1.0, tau=3, steps=50
+2025-07-06 03:12:56,085 - INFO - main_script.py:93 - Creating jammer scenario with beta=1.0, tau=3, steps=50
+2025-07-06 03:12:56,085 - INFO - Creating jammer scenario with beta=1.0, tau=3, steps=50
+2025-07-06 03:12:56,085 - INFO - simulation_scenarios.py:110 - Creating jammer scenario jammer_20250706_031256_a0d77276 with beta=1.0, tau=3, n_steps=50
+2025-07-06 03:12:56,085 - INFO - simulation_scenarios.py:110 - Creating jammer scenario jammer_20250706_031256_a0d77276 with beta=1.0, tau=3, n_steps=50
+2025-07-06 03:12:56,085 - INFO - Creating jammer scenario jammer_20250706_031256_a0d77276 with beta=1.0, tau=3, n_steps=50
+2025-07-06 03:12:56,150 - ERROR - main_script.py:260 - Error in single mode: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 226, in main
+    scenario_id = run_single_simulation(args)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 94, in run_single_simulation
+    scenario_id = create_jammer_scenario(
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_scenarios.py", line 116, in create_jammer_scenario
+    mimo_simulator.run_jammer_simulation(beta, tau, n_steps, n_frames)
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_simulator.py", line 157, in run_jammer_simulation
+    jammer_position, jammer_states[step]
+                     ~~~~~~~~~~~~~^^^^^^
+IndexError: list index out of range
+2025-07-06 03:12:56,150 - ERROR - main_script.py:260 - Error in single mode: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 226, in main
+    scenario_id = run_single_simulation(args)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 94, in run_single_simulation
+    scenario_id = create_jammer_scenario(
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_scenarios.py", line 116, in create_jammer_scenario
+    mimo_simulator.run_jammer_simulation(beta, tau, n_steps, n_frames)
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_simulator.py", line 157, in run_jammer_simulation
+    jammer_position, jammer_states[step]
+                     ~~~~~~~~~~~~~^^^^^^
+IndexError: list index out of range
+2025-07-06 03:12:56,150 - ERROR - Error in single mode: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 226, in main
+    scenario_id = run_single_simulation(args)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 94, in run_single_simulation
+    scenario_id = create_jammer_scenario(
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_scenarios.py", line 116, in create_jammer_scenario
+    mimo_simulator.run_jammer_simulation(beta, tau, n_steps, n_frames)
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_simulator.py", line 157, in run_jammer_simulation
+    jammer_position, jammer_states[step]
+                     ~~~~~~~~~~~~~^^^^^^
+IndexError: list index out of range
+2025-07-06 03:13:10,295 - INFO - main_script.py:90 - Running single simulation
+2025-07-06 03:13:10,295 - INFO - main_script.py:90 - Running single simulation
+2025-07-06 03:13:10,295 - INFO - Running single simulation
+2025-07-06 03:13:10,295 - INFO - main_script.py:93 - Creating jammer scenario with beta=1.0, tau=5, steps=50
+2025-07-06 03:13:10,295 - INFO - main_script.py:93 - Creating jammer scenario with beta=1.0, tau=5, steps=50
+2025-07-06 03:13:10,295 - INFO - Creating jammer scenario with beta=1.0, tau=5, steps=50
+2025-07-06 03:13:10,295 - INFO - simulation_scenarios.py:110 - Creating jammer scenario jammer_20250706_031310_53ecf98e with beta=1.0, tau=5, n_steps=50
+2025-07-06 03:13:10,295 - INFO - simulation_scenarios.py:110 - Creating jammer scenario jammer_20250706_031310_53ecf98e with beta=1.0, tau=5, n_steps=50
+2025-07-06 03:13:10,295 - INFO - Creating jammer scenario jammer_20250706_031310_53ecf98e with beta=1.0, tau=5, n_steps=50
+2025-07-06 03:13:10,359 - ERROR - main_script.py:260 - Error in single mode: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 226, in main
+    scenario_id = run_single_simulation(args)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 94, in run_single_simulation
+    scenario_id = create_jammer_scenario(
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_scenarios.py", line 116, in create_jammer_scenario
+    mimo_simulator.run_jammer_simulation(beta, tau, n_steps, n_frames)
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_simulator.py", line 157, in run_jammer_simulation
+    jammer_position, jammer_states[step]
+                     ~~~~~~~~~~~~~^^^^^^
+IndexError: list index out of range
+2025-07-06 03:13:10,359 - ERROR - main_script.py:260 - Error in single mode: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 226, in main
+    scenario_id = run_single_simulation(args)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 94, in run_single_simulation
+    scenario_id = create_jammer_scenario(
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_scenarios.py", line 116, in create_jammer_scenario
+    mimo_simulator.run_jammer_simulation(beta, tau, n_steps, n_frames)
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_simulator.py", line 157, in run_jammer_simulation
+    jammer_position, jammer_states[step]
+                     ~~~~~~~~~~~~~^^^^^^
+IndexError: list index out of range
+2025-07-06 03:13:10,359 - ERROR - Error in single mode: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 226, in main
+    scenario_id = run_single_simulation(args)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 94, in run_single_simulation
+    scenario_id = create_jammer_scenario(
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_scenarios.py", line 116, in create_jammer_scenario
+    mimo_simulator.run_jammer_simulation(beta, tau, n_steps, n_frames)
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_simulator.py", line 157, in run_jammer_simulation
+    jammer_position, jammer_states[step]
+                     ~~~~~~~~~~~~~^^^^^^
+IndexError: list index out of range
+2025-07-06 03:13:42,325 - INFO - main_script.py:90 - Running single simulation
+2025-07-06 03:13:42,325 - INFO - main_script.py:90 - Running single simulation
+2025-07-06 03:13:42,325 - INFO - Running single simulation
+2025-07-06 03:13:42,325 - INFO - main_script.py:93 - Creating jammer scenario with beta=0.5, tau=5, steps=50
+2025-07-06 03:13:42,325 - INFO - main_script.py:93 - Creating jammer scenario with beta=0.5, tau=5, steps=50
+2025-07-06 03:13:42,325 - INFO - Creating jammer scenario with beta=0.5, tau=5, steps=50
+2025-07-06 03:13:42,325 - INFO - simulation_scenarios.py:110 - Creating jammer scenario jammer_20250706_031342_6027dcaa with beta=0.5, tau=5, n_steps=50
+2025-07-06 03:13:42,325 - INFO - simulation_scenarios.py:110 - Creating jammer scenario jammer_20250706_031342_6027dcaa with beta=0.5, tau=5, n_steps=50
+2025-07-06 03:13:42,325 - INFO - Creating jammer scenario jammer_20250706_031342_6027dcaa with beta=0.5, tau=5, n_steps=50
+2025-07-06 03:13:42,395 - ERROR - main_script.py:260 - Error in single mode: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 226, in main
+    scenario_id = run_single_simulation(args)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 94, in run_single_simulation
+    scenario_id = create_jammer_scenario(
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_scenarios.py", line 116, in create_jammer_scenario
+    mimo_simulator.run_jammer_simulation(beta, tau, n_steps, n_frames)
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_simulator.py", line 157, in run_jammer_simulation
+    jammer_position, jammer_states[step]
+                     ~~~~~~~~~~~~~^^^^^^
+IndexError: list index out of range
+2025-07-06 03:13:42,395 - ERROR - main_script.py:260 - Error in single mode: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 226, in main
+    scenario_id = run_single_simulation(args)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 94, in run_single_simulation
+    scenario_id = create_jammer_scenario(
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_scenarios.py", line 116, in create_jammer_scenario
+    mimo_simulator.run_jammer_simulation(beta, tau, n_steps, n_frames)
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_simulator.py", line 157, in run_jammer_simulation
+    jammer_position, jammer_states[step]
+                     ~~~~~~~~~~~~~^^^^^^
+IndexError: list index out of range
+2025-07-06 03:13:42,395 - ERROR - Error in single mode: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 226, in main
+    scenario_id = run_single_simulation(args)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\main_script.py", line 94, in run_single_simulation
+    scenario_id = create_jammer_scenario(
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_scenarios.py", line 116, in create_jammer_scenario
+    mimo_simulator.run_jammer_simulation(beta, tau, n_steps, n_frames)
+  File "C:\Users\Ali Hossary DEI\Downloads\mimo_simulation\simulation\simulation_simulator.py", line 157, in run_jammer_simulation
+    jammer_position, jammer_states[step]
+                     ~~~~~~~~~~~~~^^^^^^
+IndexError: list index out of range
+2025-07-06 03:13:51,895 - INFO - main_script.py:90 - Running single simulation
+2025-07-06 03:13:51,895 - INFO - main_script.py:90 - Running single simulation
+2025-07-06 03:13:51,895 - INFO - Running single simulation
+2025-07-06 03:13:51,895 - INFO - main_script.py:93 - Creating jammer scenario with beta=0.5, tau=5, steps=80
+2025-07-06 03:13:51,895 - INFO - main_script.py:93 - Creating jammer scenario with beta=0.5, tau=5, steps=80
+2025-07-06 03:13:51,895 - INFO - Creating jammer scenario with beta=0.5, tau=5, steps=80
+2025-07-06 03:13:51,895 - INFO - simulation_scenarios.py:110 - Creating jammer scenario jammer_20250706_031351_ef59ddac with beta=0.5, tau=5, n_steps=80
+2025-07-06 03:13:51,895 - INFO - simulation_scenarios.py:110 - Creating jammer scenario jammer_20250706_031351_ef59ddac with beta=0.5, tau=5, n_steps=80
+2025-07-06 03:13:51,895 - INFO - Creating jammer scenario jammer_20250706_031351_ef59ddac with beta=0.5, tau=5, n_steps=80
+2025-07-06 03:13:52,050 - INFO - simulation_scenarios.py:157 - Jammer scenario jammer_20250706_031351_ef59ddac created successfully on attempt 1
+2025-07-06 03:13:52,050 - INFO - simulation_scenarios.py:157 - Jammer scenario jammer_20250706_031351_ef59ddac created successfully on attempt 1
+2025-07-06 03:13:52,050 - INFO - Jammer scenario jammer_20250706_031351_ef59ddac created successfully on attempt 1
+2025-07-06 03:13:52,050 - INFO - simulation_scenarios.py:158 - Results saved to simulation_results\jammer_20250706_031351_ef59ddac
+2025-07-06 03:13:52,050 - INFO - simulation_scenarios.py:158 - Results saved to simulation_results\jammer_20250706_031351_ef59ddac
+2025-07-06 03:13:52,050 - INFO - Results saved to simulation_results\jammer_20250706_031351_ef59ddac
+2025-07-06 03:13:52,050 - INFO - main_script.py:101 - Jammer scenario created successfully: jammer_20250706_031351_ef59ddac
+2025-07-06 03:13:52,050 - INFO - main_script.py:101 - Jammer scenario created successfully: jammer_20250706_031351_ef59ddac
+2025-07-06 03:13:52,050 - INFO - Jammer scenario created successfully: jammer_20250706_031351_ef59ddac
+2025-07-06 03:13:52,050 - INFO - main_script.py:228 - Single simulation completed successfully: jammer_20250706_031351_ef59ddac
+2025-07-06 03:13:52,050 - INFO - main_script.py:228 - Single simulation completed successfully: jammer_20250706_031351_ef59ddac
+2025-07-06 03:13:52,050 - INFO - Single simulation completed successfully: jammer_20250706_031351_ef59ddac
+2025-07-06 03:13:52,050 - INFO - main_script.py:264 - Total runtime: 0.15 seconds
+2025-07-06 03:13:52,050 - INFO - main_script.py:264 - Total runtime: 0.15 seconds
+2025-07-06 03:13:52,050 - INFO - Total runtime: 0.15 seconds
+2025-07-06 03:13:58,425 - INFO - main_script.py:90 - Running single simulation
+2025-07-06 03:13:58,425 - INFO - main_script.py:90 - Running single simulation
+2025-07-06 03:13:58,425 - INFO - Running single simulation
+2025-07-06 03:13:58,425 - INFO - main_script.py:93 - Creating jammer scenario with beta=0.5, tau=10, steps=80
+2025-07-06 03:13:58,425 - INFO - main_script.py:93 - Creating jammer scenario with beta=0.5, tau=10, steps=80
+2025-07-06 03:13:58,425 - INFO - Creating jammer scenario with beta=0.5, tau=10, steps=80
+2025-07-06 03:13:58,425 - INFO - simulation_scenarios.py:110 - Creating jammer scenario jammer_20250706_031358_be0ecd79 with beta=0.5, tau=10, n_steps=80
+2025-07-06 03:13:58,425 - INFO - simulation_scenarios.py:110 - Creating jammer scenario jammer_20250706_031358_be0ecd79 with beta=0.5, tau=10, n_steps=80
+2025-07-06 03:13:58,425 - INFO - Creating jammer scenario jammer_20250706_031358_be0ecd79 with beta=0.5, tau=10, n_steps=80
+2025-07-06 03:13:58,581 - INFO - simulation_scenarios.py:157 - Jammer scenario jammer_20250706_031358_be0ecd79 created successfully on attempt 1
+2025-07-06 03:13:58,581 - INFO - simulation_scenarios.py:157 - Jammer scenario jammer_20250706_031358_be0ecd79 created successfully on attempt 1
+2025-07-06 03:13:58,581 - INFO - Jammer scenario jammer_20250706_031358_be0ecd79 created successfully on attempt 1
+2025-07-06 03:13:58,585 - INFO - simulation_scenarios.py:158 - Results saved to simulation_results\jammer_20250706_031358_be0ecd79
+2025-07-06 03:13:58,585 - INFO - simulation_scenarios.py:158 - Results saved to simulation_results\jammer_20250706_031358_be0ecd79
+2025-07-06 03:13:58,585 - INFO - Results saved to simulation_results\jammer_20250706_031358_be0ecd79
+2025-07-06 03:13:58,585 - INFO - main_script.py:101 - Jammer scenario created successfully: jammer_20250706_031358_be0ecd79
+2025-07-06 03:13:58,585 - INFO - main_script.py:101 - Jammer scenario created successfully: jammer_20250706_031358_be0ecd79
+2025-07-06 03:13:58,585 - INFO - Jammer scenario created successfully: jammer_20250706_031358_be0ecd79
+2025-07-06 03:13:58,585 - INFO - main_script.py:228 - Single simulation completed successfully: jammer_20250706_031358_be0ecd79
+2025-07-06 03:13:58,585 - INFO - main_script.py:228 - Single simulation completed successfully: jammer_20250706_031358_be0ecd79
+2025-07-06 03:13:58,585 - INFO - Single simulation completed successfully: jammer_20250706_031358_be0ecd79
+2025-07-06 03:13:58,585 - INFO - main_script.py:264 - Total runtime: 0.16 seconds
+2025-07-06 03:13:58,585 - INFO - main_script.py:264 - Total runtime: 0.16 seconds
+2025-07-06 03:13:58,585 - INFO - Total runtime: 0.16 seconds
+2025-07-06 03:14:08,455 - INFO - main_script.py:90 - Running single simulation
+2025-07-06 03:14:08,455 - INFO - main_script.py:90 - Running single simulation
+2025-07-06 03:14:08,455 - INFO - Running single simulation
+2025-07-06 03:14:08,455 - INFO - main_script.py:93 - Creating jammer scenario with beta=1.0, tau=10, steps=80
+2025-07-06 03:14:08,455 - INFO - main_script.py:93 - Creating jammer scenario with beta=1.0, tau=10, steps=80
+2025-07-06 03:14:08,455 - INFO - Creating jammer scenario with beta=1.0, tau=10, steps=80
+2025-07-06 03:14:08,455 - INFO - simulation_scenarios.py:110 - Creating jammer scenario jammer_20250706_031408_1c2eb03d with beta=1.0, tau=10, n_steps=80
+2025-07-06 03:14:08,455 - INFO - simulation_scenarios.py:110 - Creating jammer scenario jammer_20250706_031408_1c2eb03d with beta=1.0, tau=10, n_steps=80
+2025-07-06 03:14:08,455 - INFO - Creating jammer scenario jammer_20250706_031408_1c2eb03d with beta=1.0, tau=10, n_steps=80
+2025-07-06 03:14:08,622 - INFO - simulation_scenarios.py:157 - Jammer scenario jammer_20250706_031408_1c2eb03d created successfully on attempt 1
+2025-07-06 03:14:08,622 - INFO - simulation_scenarios.py:157 - Jammer scenario jammer_20250706_031408_1c2eb03d created successfully on attempt 1
+2025-07-06 03:14:08,622 - INFO - Jammer scenario jammer_20250706_031408_1c2eb03d created successfully on attempt 1
+2025-07-06 03:14:08,622 - INFO - simulation_scenarios.py:158 - Results saved to simulation_results\jammer_20250706_031408_1c2eb03d
+2025-07-06 03:14:08,622 - INFO - simulation_scenarios.py:158 - Results saved to simulation_results\jammer_20250706_031408_1c2eb03d
+2025-07-06 03:14:08,622 - INFO - Results saved to simulation_results\jammer_20250706_031408_1c2eb03d
+2025-07-06 03:14:08,622 - INFO - main_script.py:101 - Jammer scenario created successfully: jammer_20250706_031408_1c2eb03d
+2025-07-06 03:14:08,622 - INFO - main_script.py:101 - Jammer scenario created successfully: jammer_20250706_031408_1c2eb03d
+2025-07-06 03:14:08,622 - INFO - Jammer scenario created successfully: jammer_20250706_031408_1c2eb03d
+2025-07-06 03:14:08,622 - INFO - main_script.py:228 - Single simulation completed successfully: jammer_20250706_031408_1c2eb03d
+2025-07-06 03:14:08,622 - INFO - main_script.py:228 - Single simulation completed successfully: jammer_20250706_031408_1c2eb03d
+2025-07-06 03:14:08,622 - INFO - Single simulation completed successfully: jammer_20250706_031408_1c2eb03d
+2025-07-06 03:14:08,622 - INFO - main_script.py:264 - Total runtime: 0.17 seconds
+2025-07-06 03:14:08,622 - INFO - main_script.py:264 - Total runtime: 0.17 seconds
+2025-07-06 03:14:08,622 - INFO - Total runtime: 0.17 seconds
+2025-07-06 18:38:52,725 - INFO - main_script.py:90 - Running single simulation
+2025-07-06 18:38:52,725 - INFO - main_script.py:90 - Running single simulation
+2025-07-06 18:38:52,725 - INFO - Running single simulation
+2025-07-06 18:38:52,725 - INFO - main_script.py:93 - Creating jammer scenario with beta=1.0, tau=4, steps=80
+2025-07-06 18:38:52,725 - INFO - main_script.py:93 - Creating jammer scenario with beta=1.0, tau=4, steps=80
+2025-07-06 18:38:52,725 - INFO - Creating jammer scenario with beta=1.0, tau=4, steps=80
+2025-07-06 18:38:52,725 - INFO - simulation_scenarios.py:110 - Creating jammer scenario jammer_20250706_183852_005f1a85 with beta=1.0, tau=4, n_steps=80
+2025-07-06 18:38:52,725 - INFO - simulation_scenarios.py:110 - Creating jammer scenario jammer_20250706_183852_005f1a85 with beta=1.0, tau=4, n_steps=80
+2025-07-06 18:38:52,725 - INFO - Creating jammer scenario jammer_20250706_183852_005f1a85 with beta=1.0, tau=4, n_steps=80
+2025-07-06 18:38:52,885 - INFO - simulation_scenarios.py:157 - Jammer scenario jammer_20250706_183852_005f1a85 created successfully on attempt 1
+2025-07-06 18:38:52,885 - INFO - simulation_scenarios.py:157 - Jammer scenario jammer_20250706_183852_005f1a85 created successfully on attempt 1
+2025-07-06 18:38:52,885 - INFO - Jammer scenario jammer_20250706_183852_005f1a85 created successfully on attempt 1
+2025-07-06 18:38:52,885 - INFO - simulation_scenarios.py:158 - Results saved to simulation_results\jammer_20250706_183852_005f1a85
+2025-07-06 18:38:52,885 - INFO - simulation_scenarios.py:158 - Results saved to simulation_results\jammer_20250706_183852_005f1a85
+2025-07-06 18:38:52,885 - INFO - Results saved to simulation_results\jammer_20250706_183852_005f1a85
+2025-07-06 18:38:52,885 - INFO - main_script.py:101 - Jammer scenario created successfully: jammer_20250706_183852_005f1a85
+2025-07-06 18:38:52,885 - INFO - main_script.py:101 - Jammer scenario created successfully: jammer_20250706_183852_005f1a85
+2025-07-06 18:38:52,885 - INFO - Jammer scenario created successfully: jammer_20250706_183852_005f1a85
+2025-07-06 18:38:52,885 - INFO - main_script.py:228 - Single simulation completed successfully: jammer_20250706_183852_005f1a85
+2025-07-06 18:38:52,885 - INFO - main_script.py:228 - Single simulation completed successfully: jammer_20250706_183852_005f1a85
+2025-07-06 18:38:52,885 - INFO - Single simulation completed successfully: jammer_20250706_183852_005f1a85
+2025-07-06 18:38:52,885 - INFO - main_script.py:264 - Total runtime: 0.16 seconds
+2025-07-06 18:38:52,885 - INFO - main_script.py:264 - Total runtime: 0.16 seconds
+2025-07-06 18:38:52,885 - INFO - Total runtime: 0.16 seconds

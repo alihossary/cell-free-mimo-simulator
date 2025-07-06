@@ -1,0 +1,33 @@
+{
+  "simulation_id": "jammer_20250706_183852_005f1a85",
+  "parameters": {
+    "scenario_type": "jammer",
+    "beta": 1.0,
+    "tau": 4,
+    "n_steps": 80,
+    "n_frames": 8,
+    "n_users": 10,
+    "n_aps": 5,
+    "n_jammers": 1,
+    "n_antennas_user": 1,
+    "n_antennas_ap": 4,
+    "n_antennas_jammer": 4,
+    "area_size": 1.0,
+    "noise_power": 0.0002,
+    "gamma_0": 4,
+    "jammer_range": 0.35,
+    "jammer_power": 1.2,
+    "speed_max": 0.001667,
+    "timestamp": "2025-07-06T18:38:52.840738",
+    "attempt": 1
+  },
+  "metrics_summary": {
+    "avg_connection_count": 3.4375,
+    "avg_sinr_overall": 13.332577319780526,
+    "min_sinr_overall": 4.09618982346185,
+    "max_sinr_overall": 26.008599510407578,
+    "avg_distance_overall": 0.1197598456153817,
+    "avg_interference_overall": 0.1735561544734192,
+    "avg_jammer_interference_overall": 0.1984517469883693
+  }
+}
