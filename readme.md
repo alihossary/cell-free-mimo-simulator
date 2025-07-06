@@ -34,7 +34,7 @@ mimo_simulation/
 Clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/your-username/mimo-simulation.git
+git clone https://github.com/alihossary/cell-free-mimo-simulator.git
 cd mimo-simulation
 pip install -r requirements.txt
 ```
